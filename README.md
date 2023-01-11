@@ -2,8 +2,8 @@
 Contributors: xenioushk
 Tags: accordion, accordion animation, accordion pagination, accordion search, faq accordion, toggle accordion, ultimate accordion, wpbakery accordion, wpbakery addon
 Requires at least: 5.5.5
-Tested up to: 6.0.0
-Stable tag: 1.0.0
+Tested up to: 6.1.1
+Stable tag: 1.0.1
 Requires PHP: 5.5.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -85,6 +85,13 @@ Yes, plugin search box support and work pretty well in mobile devices. Search bo
 Yes, it is possible.
 
 == Changelog ==
+
+= 1.0.1 =
+
+- Updated: Plugin for WPBakery Page Builder 6.10.0
+- Updated: Plugin for WordPress 6.1.1
+- Updated: Plugin language/translation file.
+- Updated: Plugin documentation.
 
 = 1.0.0 =
 
