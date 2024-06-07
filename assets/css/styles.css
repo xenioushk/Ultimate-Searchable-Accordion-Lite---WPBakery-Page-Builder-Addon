@@ -39,7 +39,9 @@
     08. RTL support
     09. Responsive styling
 /*========================================================================*/
+/***********************************************************************************************/
 /* 01. Accordion basic styles */
+/***********************************************************************************************/
 .bwl_acc_container {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,7 +69,7 @@
 .acc-ctrl-btn .acc-collapsible-all {
   width: 24px;
   height: 24px;
-  border: 1px solid #cccccc;
+  border: 1px solid #CCCCCC;
   font-size: 12px;
   text-align: center;
   display: inline-block;
@@ -83,7 +85,7 @@
   display: none;
   margin: 0 0 12px 0;
   position: relative;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 .accordion_search_container .acc_clear_btn {
   position: absolute;
@@ -92,13 +94,13 @@
   display: none;
 }
 .accordion_search_container .acc_clear_btn:after {
-  background: #ffffff;
+  background: #FFFFFF;
   right: 8px;
   top: 4px;
   padding: 5px 10px;
   display: inline-block;
   position: absolute;
-  content: "X";
+  content: 'X';
   color: #000000;
 }
 .accordion_search_container .rtl_clear_btn {
@@ -108,13 +110,13 @@
   display: none;
 }
 .accordion_search_container .rtl_clear_btn:before {
-  background: #ffffff;
+  background: #FFFFFF;
   left: 8px;
   top: 4px;
   padding: 5px 10px;
   display: inline-block;
   position: absolute;
-  content: "X";
+  content: 'X';
   color: #000000;
 }
 .accordion_search_container .accordion_search_input_box {
@@ -174,7 +176,7 @@
   font-family: inherit;
   padding: 0;
   margin: 0 0 2px 0;
-  /*height: 46px;	*/
+   /*height: 46px;	*/
   line-height: 46px;
   font-size: 15px;
   font-weight: 500;
@@ -203,19 +205,20 @@
 }
 
 .acc_title_bar a.title_icon {
-  display: flex;
+    display: flex;
 }
 
-.acc_title_bar a.title_icon i.fa {
-  margin: 4px 8px 0 0;
-  text-align: center;
+.acc_title_bar a.title_icon i.fa{
+    margin: 4px 8px 0 0;
+    text-align: center;
 }
+
 
 .acc_title_bar a:after {
   z-index: 1;
   left: 20px;
   bottom: 0;
-  content: "";
+  content: '';
   position: absolute;
   display: inline-block;
   width: 7px;
@@ -235,7 +238,7 @@
 .acc_title_bar a:before {
   z-index: 2;
   content: "\f067";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
   display: inline-block;
   width: 48px;
@@ -261,7 +264,7 @@
 }
 .acc_title_bar a:hover:before {
   content: "\f067";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
   display: inline-block;
   width: 48px;
@@ -282,7 +285,7 @@
   z-index: 1;
   left: 20px;
   top: 0;
-  content: "";
+  content: '';
   position: absolute;
   display: inline-block;
   width: 7px;
@@ -297,7 +300,7 @@
 }
 .title-bar-active a:before {
   content: "\f068";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
   display: inline-block;
   width: 48px;
@@ -313,7 +316,7 @@
 }
 .title-bar-active a:hover:before {
   content: "\f068";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
   display: inline-block;
   width: 48px;
@@ -578,7 +581,7 @@
   background: #ffe140;
 }
 .theme-yellow-title-bar a {
-  color: #2c2c2c !important;
+  color: #2C2C2C !important;
 }
 .theme-yellow-title-bar a:after {
   background: #d9b700;
@@ -587,7 +590,7 @@
   background: #d9b700;
 }
 .theme-yellow-title-bar a:hover {
-  color: #2c2c2c;
+  color: #2C2C2C;
 }
 .theme-yellow-title-bar a:hover:before {
   background: #d9b700;
@@ -632,7 +635,7 @@ div.acc_container {
   padding: 12px 0;
   overflow: hidden;
   clear: both;
-  background: #fbfbfb;
+  background: #FBFBFB;
   color: #666666;
   border: 1px solid #d6d6d6;
   display: none;
@@ -641,23 +644,23 @@ div.acc_container .block {
   padding: 0 12px;
 }
 
-div.acc_container a {
-  color: #000000;
-  -webkit-transition: 0.3s 0.2s ease-out;
-  -moz-transition: 0.3s 0.2s ease-out;
-  -o-transition: 0.3s 0.2s ease-out;
-  transition: 0.3s 0.2s ease-out;
+div.acc_container a{
+    color: #000000;
+    -webkit-transition: 0.3s 0.2s ease-out;
+    -moz-transition: 0.3s 0.2s ease-out;
+    -o-transition: 0.3s 0.2s ease-out;
+    transition: 0.3s 0.2s ease-out;
 }
 
-div.acc_container a:hover {
-  color: #b5b531;
+div.acc_container a:hover{
+    color: #B5B531;
 }
 
 div.acc_container a:before,
 div.acc_container a:after,
 div.acc_container a:hover:before,
-div.acc_container a:hover:after {
-  content: "";
+div.acc_container a:hover:after{
+  content: '';
 }
 
 /***********************************************************************************************/
@@ -684,7 +687,7 @@ div.acc_container a:hover:after {
 }
 #bsa_page_navigation span.total_pages {
   display: inline-block;
-  margin: 5px 0 0 0;
+  margin: 5px 0 0 0 ;
   font-size: small;
 }
 #bsa_page_navigation a.previous_link,
@@ -785,7 +788,7 @@ div.acc_container a:hover:after {
 .nav_arrow a:after {
   left: -4px;
   top: 0;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   line-height: 46px;
@@ -821,7 +824,7 @@ div.acc_container a:hover:after {
 .nav_circle a:after {
   left: 36px;
   top: 33%;
-  content: "";
+  content: '';
   width: 18px;
   height: 18px;
   -webkit-border-radius: 100px;
@@ -849,6 +852,7 @@ div.acc_container a:hover:after {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
+
 
 .acc_title_bar.nav_box_transparent {
   clear: both;
@@ -941,82 +945,82 @@ div.acc_container a:hover:after {
 /***********************************************************************************************/
 .nav_icon_angle a:before {
   content: "\f107";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle a:hover:before {
   content: "\f107";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_active a:before {
   content: "\f106";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_active a:hover:before {
   content: "\f106";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_double a:before {
   content: "\f103";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_double a:hover:before {
   content: "\f103";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_double_active a:before {
   content: "\f102";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_double_active a:hover:before {
   content: "\f102";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_caret a:before {
   content: "\f0d8";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_caret a:hover:before {
   content: "\f0d8";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_caret_active a:before {
   content: "\f0d7";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_caret_active a:hover:before {
   content: "\f0d7";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_chevron a:before {
   content: "\f078";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_chevron a:hover:before {
   content: "\f078";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_chevron_active a:before {
   content: "\f077";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 .nav_icon_angle_chevron_active a:hover:before {
   content: "\f077";
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';  
   font-weight: 900;
 }
 
@@ -1040,7 +1044,7 @@ div.bwl_acc_container_rtl_support .nav_arrow {
 div.bwl_acc_container_rtl_support .nav_arrow a:after {
   right: -4px;
   top: 0;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   line-height: 46px;
@@ -1073,7 +1077,7 @@ div.bwl_acc_container_rtl_support .nav_circle {
 div.bwl_acc_container_rtl_support .nav_circle a:after {
   right: 36px;
   top: 33%;
-  content: "";
+  content: '';
   width: 18px;
   height: 18px;
   -webkit-border-radius: 100px;
@@ -1172,6 +1176,7 @@ input.load_rtl {
     /*line-height: 16px !important;*/
     line-height: 24px !important;
     min-height: 34px !important;
+    
   }
   .nav_circle a::after,
   .nav_arrow a::after {
@@ -1180,8 +1185,8 @@ input.load_rtl {
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .acc_title_bar {
-    clear: both;
-    /*    min-height: 46px;
+      clear: both;
+/*    min-height: 46px;
     line-height: 24px;
     font-size: 13px;*/
   }

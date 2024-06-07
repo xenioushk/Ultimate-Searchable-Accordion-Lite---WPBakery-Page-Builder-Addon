@@ -160,41 +160,15 @@ function usa_vc_addon_function()
             // Search Box Tab.
 
             [
-                "type" => "checkbox",
+                "type" => "text",
                 "class" => "",
                 "heading" => esc_html__("Display search box?", "usa_vc"),
-                "param_name" => "search",
-                "value" => [esc_html__("Yes", "usa_vc") => "true"],
-                "description" => "",
+                "param_name" => "message",
+                "value" => "",
+                "description" => USA_VC_UPGRADE_PRO_MSG . " and provide <span style='color:green;'>a premium user experience</span>. <a href='https://xenioushk.github.io/docs-wp-plugins/usva/index.html#search_suggestion_tab' target='_blank'>Learn more</a>.",
                 "group" => "Search Box",
             ],
 
-            [
-                "type" => "textfield",
-                "heading" => esc_html__("Set custom search input placeholder:", "usa_vc"),
-                "param_name" => "placeholder",
-                "description" => '',
-                "group" => "Search Box",
-                "dependency" => ['element' => "search", 'value' => ['true']]
-            ],
-
-            [
-                "type" => "textfield",
-                "heading" => esc_html__("Set custom message for content found:", "usa_vc"),
-                "param_name" => "msg_item_found",
-                "description" => '',
-                "group" => "Search Box",
-                "dependency" => ['element' => "search", 'value' => ['true']]
-            ],
-
-            [
-                "type" => "textfield",
-                "heading" => esc_html__("Set custom message for nothing found:", "usa_vc"),
-                "param_name" => "msg_no_result",
-                "description" => '',
-                "group" => "Search Box",
-                "dependency" => ['element' => "search", 'value' => ['true']]
-            ],
 
             /*-----  THEME TAB ----*/
 
@@ -219,6 +193,17 @@ function usa_vc_addon_function()
             ],
 
             [
+                "type" => "text",
+                "class" => "",
+                "heading" => esc_html__("Custom Theme", "usa_vc"),
+                "param_name" => "message",
+                "value" => "",
+                "description" => USA_VC_UPGRADE_PRO_MSG,
+                "group" => esc_html__('Theme', 'usa_vc'),
+                "dependency" => ['element' => "theme", 'value' => ['custom']]
+            ],
+
+            [
                 "type" => "colorpicker",
                 "heading" => esc_html__('Accordion Title BG', 'usa_vc'),
                 "param_name" => "title_bg",
@@ -228,137 +213,7 @@ function usa_vc_addon_function()
                 "dependency" => ['element' => "theme", 'value' => ['custom']]
             ],
 
-            [
-                "type" => "colorpicker",
-                "heading" => esc_html__('Accordion Title Text', 'usa_vc'),
-                "param_name" => "title_text_color",
-                "value" => "#FFFFFF",
-                "description" => esc_html__('Set accordion title text color.', 'usa_vc'),
-                "group" => esc_html__('Theme', 'usa_vc'),
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "colorpicker",
-                "heading" => esc_html__('Navigation Box BG', 'usa_vc'),
-                "param_name" => "nav_box_bg",
-                "value" => "#B8B831",
-                "description" => esc_html__('Set accordion navigataion background color.', 'usa_vc'),
-                "group" => esc_html__('Theme', 'usa_vc'),
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "colorpicker",
-                "heading" => esc_html__('Active Accordion Title BG', 'usa_vc'),
-                "param_name" => "title_active_bg",
-                "value" => "#414141",
-                "description" => esc_html__('Set active accordion title background.', 'usa_vc'),
-                "group" => esc_html__('Theme', 'usa_vc'),
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-            [
-                "type" => "colorpicker",
-                "heading" => esc_html__('Active Accordion Title Text', 'usa_vc'),
-                "param_name" => "title_active_text_color",
-                "value" => "#F0F0F0",
-                "description" => esc_html__('Set active accordion title text color.', 'usa_vc'),
-                "group" => esc_html__('Theme', 'usa_vc'),
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-            [
-                "type" => "colorpicker",
-                "heading" => esc_html__('Active Navigation Box BG', 'usa_vc'),
-                "param_name" => "nav_active_box_bg",
-                "value" => "#D0D051",
-                "description" => esc_html__('Set active accordion navigataion background color.', 'usa_vc'),
-                "group" => esc_html__('Theme', 'usa_vc'),
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "dropdown",
-                "class" => "",
-                "heading" => esc_html__("Title Tag", "usa-vc"),
-                "param_name" => "title_tag",
-                "value" => $usa_vc_content_tags,
-                "group" => "Theme",
-                "description" => ''
-            ],
-
-            [
-                "type" => "dropdown",
-                "class" => "",
-                "heading" => esc_html__("Title Tag Front Size: ", "usa_vc"),
-                "param_name" => "tt_font_size",
-                "value" => $usa_vc_tag_size,
-                "group" => "Theme",
-                "description" => esc_html__("Set the font size (example: 15 ) of heading tag. Defult size: 15", "usa_vc")
-            ],
-
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Search highlighter background:", "usa_vc"),
-                "param_name" => "highlight_bg",
-                "value" => '#FF0000', //Default Color
-                "description" => esc_html__("Choose BG color", "usa_vc"),
-                "group" => "Theme",
-            ],
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Search highlighter text color:", "usa_vc"),
-                "param_name" => "highlight_color",
-                "value" => '#FF0000', //Default Color
-                "description" => esc_html__("Choose text color", "usa_vc"),
-                "group" => "Theme",
-            ],
-
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Accordion content background:", "usa_vc"),
-                "param_name" => "content_bg",
-                "value" => '#FBFBFB', //Default Color
-                "description" => esc_html__("Choose BG color of accordion content.", "usa_vc"),
-                "group" => "Theme",
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Accordion content text color:", "usa_vc"),
-                "param_name" => "content_text_color",
-                "value" => '#666666', //Default Color
-                "description" => esc_html__("Choose text color of accordion content.", "usa_vc"),
-                "group" => "Theme",
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Accordion content link color:", "usa_vc"),
-                "param_name" => "content_link_color",
-                "value" => '#2C2C2C', //Default Color
-                "description" => esc_html__("Choose text color of accordion content link.", "usa_vc"),
-                "group" => "Theme",
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
-            [
-                "type" => "colorpicker",
-                "class" => "",
-                "heading" => esc_html__("Accordion content link hover color:", "usa_vc"),
-                "param_name" => "content_link_hover_color",
-                "value" => '#000000', //Default Color
-                "description" => esc_html__("Choose hover text color of accordion content link.", "usa_vc"),
-                "group" => "Theme",
-                "dependency" => ['element' => "theme", 'value' => ['custom']]
-            ],
-
+            // Navigation Box.
 
             [
                 "type" => "checkbox",
@@ -400,7 +255,19 @@ function usa_vc_addon_function()
                 ],
                 "group" => "Navigation box",
                 "description" => '',
-            ]
+            ],
+
+            // Pagination
+
+            [
+                "type" => "text",
+                "class" => "",
+                "heading" => esc_html__("Enable Pagination?", "usa_vc"),
+                "param_name" => "message",
+                "value" => "",
+                "description" => USA_VC_UPGRADE_PRO_MSG . " and discover the <span style='color:green;'>Magic of Pagination</span>. <a href='https://xenioushk.github.io/docs-wp-plugins/usva/index.html#pagination_tab' target='_blank'>Learn more</a>.",
+                "group" => "Pagination",
+            ],
         ],
         "js_view" => 'VcColumnView'
     ]);
