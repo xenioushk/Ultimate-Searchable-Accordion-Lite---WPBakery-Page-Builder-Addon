@@ -1,3 +1,4 @@
 node_modules
 assets_bkp
 package-lock.json
+.DS_Store
