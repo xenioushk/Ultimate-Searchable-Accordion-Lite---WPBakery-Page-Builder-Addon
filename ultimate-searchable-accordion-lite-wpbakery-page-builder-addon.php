@@ -2,7 +2,7 @@
 /*
   Plugin Name: Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon
   Plugin URI:  https://1.envato.market/usva-wp
-  Version: 1.0.7
+  Version: 1.0.8
   Description: The most powerful and advanced content searchable accordion addon for the WPBakery Page Builder. Easy to use and attractive, responsive layout fit any screen, which gives the best user experience for your users.
   Author: xenioushk
   Author URI:  https://bluewindlab.net/
@@ -53,7 +53,7 @@ if (!class_exists('USA_VC_Addon')) {
             define("USA_VC_PRO", 'https://1.envato.market/usva-wp');
             define("USA_VC_UPGRADE_PRO_MSG", "<strong>Upgrade to <a href='" . USA_VC_PRO . "' target='_blank'>pro version</a> to unlock the feature</strong>");
             define("USA_VC_PLUGIN_DIR", plugins_url() . '/ultimate-searchable-accordion-lite-wpbakery-page-builder-addon/');
-            define("USA_VC_PLUGIN_VERSION", '1.0.7');
+            define("USA_VC_PLUGIN_VERSION", '1.0.8');
 
             $this->included_files();
 

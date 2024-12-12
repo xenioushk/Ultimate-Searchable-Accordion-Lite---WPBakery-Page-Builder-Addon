@@ -1,10 +1,10 @@
 === Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon ===
 Contributors: xenioushk
 Tags: accordion,accordion search,wpbakery accordion
-Requires at least: 5.0
-Tested up to: 6.5.3
-Stable tag: 1.0.7
-Requires PHP: 7.3
+Requires at least: 6.0
+Tested up to: 6.7.1
+Stable tag: 1.0.8
+Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,11 @@ Yes, it is possible.
 
 == Changelog ==
 
+= 1.0.8 =
+
+- Updated: Plugin for WPBakery Page Builder 8.1
+- Updated: Plugin for WordPress 6.7.1
+
 = 1.0.7 =
 
 - Updated: Plugin for WPBakery Page Builder 7.5
@@ -126,6 +131,10 @@ Yes, it is possible.
 - First release.
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+
+- Replace all files and directories in your plugins/ultimate-searchable-accordion-lite-wpbakery-page-builder-addon folder.
 
 = 1.0.7 =
 

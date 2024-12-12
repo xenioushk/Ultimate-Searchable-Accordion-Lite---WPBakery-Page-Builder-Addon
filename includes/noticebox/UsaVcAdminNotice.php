@@ -18,6 +18,8 @@ class UsaVcLiteAdminNotice
     // Classes: notice-success, notice-error, notice-warning. notice-info
     // display: 0, 1 [default: 1]
 
+    return [];
+
     $noticeLists = [
 
       [
