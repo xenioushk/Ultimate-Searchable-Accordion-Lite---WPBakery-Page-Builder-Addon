@@ -1,13 +1,20 @@
 <?php
-/*
-    Plugin Name: Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon
-    Plugin URI:  https://1.envato.market/usva-wp
-    Version: 1.0.9
-    Description: The most powerful and advanced content searchable accordion addon for the WPBakery Page Builder.
-    Author: xenioushk
-    Author URI:  https://bluewindlab.net/
-    Text Domain: usa_vc
-    Domain Path: /languages/
+/**
+ * Plugin Name: Ultimate Searchable Accordion Lite For WPBakery Page Builder
+ * Plugin URI: https://1.envato.market/usva-wp
+ * Description: WPBakery Page Builder's most robust and cutting-edge addon for content-searchable accordions.
+ * Author: Mahbub Alam Khan
+ * Version: 1.0.9
+ * Author URI: https://bluewindlab.net/
+ * WP Requires at least: 6.0+
+ * Text Domain: usa_vc
+ * Domain Path: /languages/
+ *
+ * @package   UsavcAddonLite
+ * @author    Mahbub Alam Khan
+ * @license   GPL-2.0+
+ * @link      https://codecanyon.net/user/xenioushk
+ * @copyright 2025 BlueWindLab
  */
 
 // security check.
