@@ -1,4 +1,8 @@
 node_modules
-assets_bkp
-package-lock.json
+tests
+*.map
+*.hot-update.js
+*.hot-update.json
 .DS_Store
+vendor
+*.log
