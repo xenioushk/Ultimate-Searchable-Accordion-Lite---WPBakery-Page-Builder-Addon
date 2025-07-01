@@ -113,9 +113,9 @@ if ( ! class_exists( 'USA_VC_Addon' ) ) {
 
             /*--- Add Custom Styles---*/
 
-            wp_enqueue_style( 'usa-vc-animate-styles', plugins_url( 'assets/lib/animate/animate.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
-            wp_enqueue_style( 'usa-vc-font-awesome-styles', plugins_url( 'assets/lib/animate/font-awesome.min.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
-            wp_enqueue_style( 'usa-vc-font-awesome-shims-styles', plugins_url( 'assets/lib/animate/v4-shims.min.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
+            wp_enqueue_style( 'usa-vc-animate-styles', plugins_url( 'libs/animate/animate.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
+            wp_enqueue_style( 'usa-vc-font-awesome-styles', plugins_url( 'libs/animate/font-awesome.min.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
+            wp_enqueue_style( 'usa-vc-font-awesome-shims-styles', plugins_url( 'libs/animate/v4-shims.min.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
             wp_enqueue_style( 'usa-vc-accordion-styles', plugins_url( 'assets/styles/frontend.css', __FILE__ ), [], USA_VC_PLUGIN_VERSION );
 
             /*---Add Custom JavaScripts----*/
