@@ -4,7 +4,7 @@
  * Plugin URI: https://1.envato.market/usva-wp
  * Description: WPBakery Page Builder's most robust and cutting-edge addon for content-searchable accordions.
  * Author: Mahbub Alam Khan
- * Version: 1.0.9
+ * Version: 1.1.0
  * Author URI: https://bluewindlab.net/
  * WP Requires at least: 6.0+
  * Text Domain: usa_vc
@@ -50,7 +50,7 @@ if ( ! class_exists( 'USA_VC_Addon' ) ) {
             define( 'USA_VC_PRO', 'https://1.envato.market/usva-wp' );
             define( 'USA_VC_UPGRADE_PRO_MSG', "<strong>Upgrade to <a href='" . USA_VC_PRO . "' target='_blank'>pro version</a> to unlock the feature</strong>" );
             define( 'USA_VC_PLUGIN_DIR', plugins_url() . '/ultimate-searchable-accordion-lite-wpbakery-page-builder-addon/' );
-            define( 'USA_VC_PLUGIN_VERSION', '1.0.9' );
+            define( 'USA_VC_PLUGIN_VERSION', '1.1.0' );
 
             $this->included_files();
 

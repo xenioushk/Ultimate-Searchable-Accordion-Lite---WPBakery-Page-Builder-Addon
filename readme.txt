@@ -1,9 +1,9 @@
 === Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon ===
-Contributors: Mahbub Alam Khan
+Contributors: xenioushk
 Tags: accordion,accordion search,wpbakery accordion
 Requires at least: 6.0
 Tested up to: 6.8.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -14,35 +14,37 @@ Ultimate Searchable Accordion is the most powerful and advanced content searchab
 
 [Live Demo](https://projects.bluewindlab.net/wpplugin/usa_vc_addon/) | [Video Tutorials](https://youtu.be/iwqafe4AwL8) | [User Guide](https://projects.bluewindlab.net/wpplugin/usa_vc_addon/doc/) | [Pro Version](https://1.envato.market/usva-wp)
 
-<p>It's very easy to use. It comes with attractive responsive layout that can fit any kind of screen which gives the best user experience of your users. This addon provide you a great option to create responsive and animated accordions for your website.</p>
+<p>
+Create beautiful, responsive, and smooth animated accordions easily with this plugin. Designed to provide the best user experience, this addon helps you add unlimited, fully customizable accordions to your WordPress site without any hassle. Perfect for FAQs, content organization, or any section where you want to present content in a clean, user-friendly way.</p> 
 
-<h3>Plugin Features:</h3>
+<h3>Key Features:</h3> 
 
 <ul>
-<li>Unlimited and multiple accordions in a single page.</li>
-<li>Quick installation and super easy to use.</li>
-<li>Smooth jQuery & CSS3 based Accordion.</li>
-<li>Responsive Accordion.</li>
-<li>14+ Smooth Animation & Effects.</li>
-<li>6 Stylish Predefined Accordion Theme.</li>
-<li>Less file included for easy CSS customization.</li>
-<li>Font Awesome.</li>
-<li>Google Fonts.</li>
-<li>Retina Ready.</li>
-<li>RTL Supported.</li>
-<li>Compatible with latest WordPress & WPBakery Page Builder Plugin.</li>
-<li>Cross Browser Supported.</li>
-<li>Valid & Well Commented Markup.</li>
+   <li><strong>Unlimited Accordions:</strong> Add multiple accordions on a single page without conflicts, making it ideal for organizing large amounts of content efficiently.</li>
+   <li><strong>Easy to Use:</strong> Quick installation and a beginner-friendly interface allow you to create accordions effortlessly within minutes.</li>
+   <li><strong>Smooth Animations:</strong> Built with jQuery and CSS3, providing fluid and modern transitions for a polished look.</li>
+   <li><strong>Fully Responsive:</strong> The accordions adapt beautifully to any screen size, ensuring the best viewing experience on mobile, tablet, and desktop devices.</li>
+   <li><strong>14+ Animation Effects:</strong> Choose from a variety of smooth animations to match your site's design and keep your users engaged.</li>
+   <li><strong>6 Predefined Stylish Themes:</strong> Get started quickly with professionally designed accordion themes, easily customizable to fit your branding.</li>
+   <li><strong>Developer Friendly:</strong> Less file included for straightforward CSS customization, enabling advanced design adjustments easily.</li>
+   <li><strong>Font Awesome & Google Fonts:</strong> Style your accordion content with beautiful icons and typography for a modern appearance.</li>
+   <li><strong>Retina Ready:</strong> Crisp, high-resolution display on all devices for a professional look.</li>
+   <li><strong>RTL Support:</strong> Fully compatible with Right-to-Left languages, ensuring global usability.</li>
+   <li><strong>WPBakery Compatibility:</strong> Seamless integration with WPBakery Page Builder for flexible page building.</li>
+   <li><strong>Cross-Browser Compatible:</strong> Works flawlessly across all major browsers, ensuring a consistent experience for your visitors.</li>
+   <li><strong>Clean, Valid Markup:</strong> Well-commented and organized code structure for easy maintenance and scalability.</li>
 </ul>
 
 <h3>Pro Version Features:</h3>
-<ul>    
-    <li>Accordion content search option to find answers easily.</li>
-    <li>Search suggestion box.</li>
-    <li>Pagination feature for large accordion list.</li>
-    <li>Premium Six months support & Lifetime Upgrade.</li>
-    <li>Extensive Documentation.</li>
+<ul>
+   <li><strong>Accordion Content Search:</strong> Enable users to find answers quickly with an integrated search option within accordion content.</li>
+   <li><strong>Search Suggestions:</strong> Displays helpful suggestions as users type, making content discovery faster.</li>
+   <li><strong>Pagination Support:</strong> Perfect for websites with large accordion lists, allowing content to be organized in pages for better navigation.</li>
+   <li><strong>Premium Support & Lifetime Updates:</strong> Get six months of premium support with lifetime updates to keep your plugin secure and up to date.</li>
+   <li><strong>Detailed Documentation:</strong> Step-by-step guidance to help you set up and customize the plugin without any difficulty.</li>
 </ul>
+
+<p>Start organizing your content effectively and enhance your user experience with a clean, modern, and powerful accordion plugin for WordPress.</p>
 
 <p><a href="https://1.envato.market/usva-wp">Get The Pro Version</a></p>
 
@@ -84,10 +86,15 @@ Yes, it is possible.
 
 == Changelog ==
 
-= 1.0.9 =
+= 1.1.0 =
 
 - Updated: Plugin for WPBakery Page Builder 8.5
 - Updated: Plugin for WordPress 6.8.1
+
+= 1.0.9 =
+
+- Updated: Plugin for WPBakery Page Builder 8.4
+- Updated: Plugin for WordPress 6.8.0
 
 = 1.0.8 =
 
@@ -136,6 +143,10 @@ Yes, it is possible.
 - First release.
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+
+- Replace all files and directories in your plugins/ultimate-searchable-accordion-lite-wpbakery-page-builder-addon folder.
 
 = 1.0.9 =
 
