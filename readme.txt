@@ -1,5 +1,5 @@
 === Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon ===
-Contributors: xenioushk
+Contributors: Mahbub Alam Khan
 Tags: accordion,accordion search,wpbakery accordion
 Requires at least: 6.0
 Tested up to: 6.8.1

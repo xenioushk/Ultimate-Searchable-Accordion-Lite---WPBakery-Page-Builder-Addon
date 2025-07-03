@@ -1,12 +1,19 @@
 # Ultimate Searchable Accordion Lite - WPBakery Page Builder Addon
 
-**Contributors:** xenioushk
+**Contributors:** Mahbub Alam Khan
+
 **Tags:** accordion,accordion search,wpbakery accordion
+
 **Requires at least:** 6.0
+
 **Tested up to:** 6.8.1
+
 **Stable tag:** 1.0.9
+
 **Requires PHP:** 8.0
+
 **License:** GPLv2 or later
+
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
 Ultimate Searchable Accordion is the most powerful and advanced content searchable accordion addon for WPBakery Page Builder.
@@ -15,9 +22,9 @@ Ultimate Searchable Accordion is the most powerful and advanced content searchab
 
 [Live Demo](https://projects.bluewindlab.net/wpplugin/usa_vc_addon/) | [Video Tutorials](https://youtu.be/iwqafe4AwL8) | [User Guide](https://projects.bluewindlab.net/wpplugin/usa_vc_addon/doc/) | [Pro Version](https://1.envato.market/usva-wp)
 
-<p>It's very easy to use. It comes with attractive responsive layout that can fit any kind of screen which gives the best user experience of your users. This addon provide you a great option to create responsive and animated accordions for your website.</p>
+The plugin is easy to use. It comes with attractive responsive layout that can fit any kind of screen which gives the best user experience of your users. This addon provide you a great option to create responsive and animated accordions for your website.
 
-<h3>Plugin Features:</h3>
+### Plugin Features:
 
 <ul>
 <li>Unlimited and multiple accordions in a single page.</li>
@@ -36,7 +43,8 @@ Ultimate Searchable Accordion is the most powerful and advanced content searchab
 <li>Valid & Well Commented Markup.</li>
 </ul>
 
-<h3>Pro Version Features:</h3>
+### Pro Version Features:
+
 <ul>    
     <li>Accordion content search option to find answers easily.</li>
     <li>Search suggestion box.</li>
